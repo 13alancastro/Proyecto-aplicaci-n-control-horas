@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e3a8a"/>
+    </linearGradient>
+    <linearGradient id="glow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="100%" stop-color="#0284c7"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="128" fill="url(#bg)"/>
+  <circle cx="256" cy="256" r="160" fill="none" stroke="url(#glow)" stroke-width="28" stroke-linecap="round"/>
+  <!-- Clock hands -->
+  <line x1="256" y1="256" x2="256" y2="150" stroke="#ffffff" stroke-width="24" stroke-linecap="round"/>
+  <line x1="256" y1="256" x2="330" y2="256" stroke="#38bdf8" stroke-width="20" stroke-linecap="round"/>
+  <circle cx="256" cy="256" r="18" fill="#ffffff"/>
+  <!-- Rest indicator leaf/badge -->
+  <circle cx="360" cy="360" r="56" fill="#10b981"/>
+  <path d="M344 360l12 12 24-24" fill="none" stroke="#ffffff" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
